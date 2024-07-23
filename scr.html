@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SCR - Silicone Controlled Rectifier</title>
+</head>
+<body>
+<h1>Silicone Controlled Rectifier (SCR)</h1>
+<p>The SCR is  a three terminal thyristor that acts like a silicon rectifier diode whose conductor is controlled by an input current. The symbol is similar to that of a diode with a cathode and an anode. Note that the third element of the SCR is known as the gate.The SCR will conduct current between cathode and anode, but only if proper control current is applied to the gate.. The gate must be made positive with respect to the cathode for the
+    SCR to conduct. When conducting, the SCR acts like a closed switch. The
+    voltage drop across the cathode and anode will be approximately 0.7– 1.8
+    V, depending on the size of the SCR and how much current is flowing
+    through it. When the cathode and anode are reverse biased, current will not
+    flow through the device.
+     An SCR conducts when a gate pulse is applied to it, just like a
+    diode. It has four layers of semiconductors that form two structures namely;
+    NPNP or PNPN. In addition, it has three junctions labeled as J1, J2 and J3 are three terminals anode,cathode and gate. </p>
+    <img src="http://edisontechcenter.org/semiconductors/SCR-pnpn1.jpg"/>
+    <img src="https://i0.wp.com/serviceacjogja.pro/wp-content/uploads/2020/12/scr.png" height="250"/>
+    <h2> Modes of operations in SCR</h2>
+    <p>In SCR there are three junctions J1, J2 and J3 . These
+        junctions play a very important role in the operation of SCR.
+        Depending on whether the junctions are forward biased or reverse
+        biased, the SCR will either conduct the current or will not be
+        conducted. For SCR to conduct current, all the three junctions
+        must be forward biased. If any one of the junctions is reverse
+        biased the SCR will not conduct any current and hence acts as an
+        open switch. This can be explained by considering the following cases.</p>
+    <p><b>a. Reverse Blocking:</b>  In this Case the Positive Voltage is
+        given to Cathode and Negative Voltage is given to Cathode
+        and Gate is Open Circuited. In this case, the junction J1 and
+        J3 are reverse biased, whereas J2 is forward biased. As the
+        Junctions J1 and J3 are reverse biased so there will be no
+        Current, But there will be Small leakages in the Forward
+        Junction J2 As the leakage current is Very Small which will
+        not Turn on SCR. Hence the SCR will be in OFF State.</p>
+        <img src="https://www.electrical4u.com/images/2018/december18/reverse-blocking-mode-of-thyristor.jpg"height="250"/>
+    <p><b> OFF State(Forward Blocking Mode):</b>In this case,
+        Positive Voltage is Given to Anode and Negative Voltage is
+        Given to the Cathode and Gate is Open Circuited. The
+        
+        junction J2 is reverse biased, whereas junctions J1 and J3
+        are forward biased, Because of the Reverse Bias Voltage the
+        Width of the Depletion Region which Block the Flow of
+        Current Between J1 and J3.Again due to which the SCR
+        does not conduct and acts as an open switch.</p>
+        <img src="https://www.electrical4u.com/images/2018/december18/forward-blocking-of-a-thyristor.jpg"height="250"/>
+        <p> <b> ON State(Conduction mode)</b>The SCR will Conduct
+            Current By Increasing Forward Bias Voltage Above the
+            Break Down Voltage and By Applying Positive Voltage at
+            gate terminal. In this case, all the three junctions are
+            forward biased and hence SCR gets turned ON and starts
+            conducting. Here, the SCR acts as a closed switch.</p>
+            <img src="https://www.electrical4u.com/images/2018/december18/forward-conducting-mode-of-scr.jpg"height="250"/>
+        <p><h2>V-I Characteristics of SCR:</h2>
+            The V-I characteristics of SCR is shown in the below figure. The
+            horizontal line in the below figure represents the amount of voltage
+            applied across the SCR whereas the vertical line represents the
+            amount of current flows in the SCR.
+             <b>VA = Anode voltage, IA = Anode current, +VA = Forward
+            anode voltage, +IA = Forward anode current, -VA = Reverse
+            anode voltage, +IA = Reverse anode current</b></p>
+            <img src="http://www.physics-and-radio-electronics.com/electronic-devices-and-circuits/semiconductor-diodes/images/Silicon-controll-rectifier-v-i-characteristics.png"height="500"alt="scr diode"/>
+        <main>
+            <p> The V-I characteristics of SCR is divided into three regions. </p>
+            <ol>
+                <li>Forward Blocking Region </li>
+                <li>Forward Conduction Region </li>
+                <li>Reverse Blocking Region</li>
+            </ol>
+            <p><b>Forward blocking region:</b>
+                In this region, the positive voltage (+) is given to anode
+               (+), negative voltage (-) is given to cathode (-), and gate is open
+               circuited. Due to this the junction J1 and J3 become forward
+               biased while J2 become reverse biased. Therefore, a small
+               leakage current flows from anode to cathode terminals of the SCR.
+               This small leakage current is known as forward leakage current.
+                The region OA of V-I characteristics is known as forward
+               blocking region in which the SCR does not conduct electric
+               current.
+               <hr>
+               <b>Forward Conduction region:</b>
+                If the forward bias voltage applied between anode and
+               cathode is increased beyond the breakdown voltage, the minority
+               carriers (free electrons in anode and holes in cathode) gain large
+               amounts of energy and accelerate to greater velocities. This high
+               speed minority carrier collides with other atoms and generates more charge carriers. Likewise, many collisions happen with
+               atoms. Due to this, millions of charge carriers are generated. As a
+               result depletion region breakdown occurs at junction J2 and
+               current starts flowing through the SCR. So the SCR will be in one
+               state. The current flow in the SCR increases rapidly after junction
+               breakdown occurs.
+                The voltage at which the junction J2 gets broken when the
+               gate is open is called forward breakdown voltage (VBF).
+               
+                The region BC of the V-I characteristics is called
+               conduction region. In this region, the current flowing from anode to
+               cathode increases rapidly. The region AB indicates that as soon as
+               the device becomes on, the voltage across the SCR drops to
+               some volts.
+               <hr>
+               <b>Reverse Blocking Region:</b>
+                In this region, the negative voltage (-) is given to anode
+               (+), positive voltage (+) is given to cathode (-), and the gate is
+               open circuited. In this case, the junction J1 and junction J3 are
+               reverse biased whereas the junction J2 becomes forward biased.
+                As the junctions J1 and junction J3 are reverse
+               biased, no current flows through the SCR circuit. But a small
+               leakage current flows due to drift of charge carriers in the forward
+               biased junction J2. This small leakage current is called reverse
+               leakage current. This small leakage current is not sufficient to turn
+               on the SCR.
+                If the reverse bias voltage applied between anode and
+               cathode is increased beyond the reverse breakdown voltage
+               (VBR), an avalanche breakdown occurs. As a result, the current
+               
+               increases rapidly. The region EF is called the reverse avalanche
+               region. This rapid increase in current may damage the SCR</p>
+               <hr>
+               <h2>FAQ's on SCR</h2>
+               <p><b>1.What is silicon controlled rectifier (SCR)?</b><br>
+
+                The Silicon Controlled Rectifier (SCR) is the most important and mostly used member of the thyristor family. <br><br>
+               <b>2. Is SCR a unidirectional device?</b><br>
+
+                The Silicon Controlled Rectifier (SCR) is a unidirectional device.<br><br>
+               <b>3. What does SCR stand for?</b><br>
+
+                SCR is abbreviated as Silicon controlled rectifier, is a semiconductor device and also called thyristor which includes 4 layers namely p-n-p-n, 3 junctions J1, J2, J3, and 3 terminals namely, anode, cathode, and gate.<br><br>
+             <b> 4. An SCR has …………… pn junctions.</b><br/>
+
+                Two<br><br></p>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/ShCJWYbHK64?si=mOaZrfRax7mXqXop" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </main>
+        </body>
+</html>
